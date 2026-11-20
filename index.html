@@ -68,7 +68,8 @@ body.dark nav.nav button:hover,body.dark nav.nav button.active{background:#25302
 .logout-btn:hover{background:var(--line);color:var(--red)}
 /* ─── MAIN AREA ─────────────────────────────────── */
 .main{margin-left:234px;padding:30px 38px 56px;min-height:100vh}
-.top-bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:28px;flex-wrap:wrap;gap:12px}
+.top-bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:28px;flex-wrap:wrap;gap:12px;position:relative}
+.version-label{position:absolute;right:0;top:-17px;color:var(--muted);font-size:10px;font-weight:600;letter-spacing:.4px;opacity:.85}
 .page-eyebrow{font-size:12px;color:var(--muted);margin-bottom:4px}
 .page-title{font:700 24px Manrope;letter-spacing:-.6px}
 .actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
@@ -318,6 +319,7 @@ body.dark .field input,body.dark .field select{background:#253028;border-color:v
         <button class="btn-secondary" id="export-csv-btn" data-i18n="export_csv">Export CSV</button>
         <button class="icon-btn" id="quick-add-btn" title="Add transaction">＋</button>
       </div>
+      <span class="version-label">Version 1.0.8</span>
     </div>
 
     <!-- ── Overview ── -->
