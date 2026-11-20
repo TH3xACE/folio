@@ -37,7 +37,10 @@ No build step or package installation is required.
 | Role | Username | Password |
 | --- | --- | --- |
 | Administrator | `admin` | `admin` |
-| Demo user | `user1` | `user1` |
+| Demo user | `demo` | `demo` |
+| User | `user1` | `user1` |
+
+NOTE: The demo user  `demo`, has sample data whereas the user  `user1` has no data and ready to be used.
 
 NOTE: Connect as admin and change the default passwords.
 
