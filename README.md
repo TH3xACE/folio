@@ -43,21 +43,19 @@ NOTE: Connect as admin and change the default passwords.
 
 The built-in credentials are for local demonstration only. Accounts and finance data are stored locally in the browser and are not synchronized between devices.
 
-## Screenshots
+## User Section
 
-Add screenshots to `docs/screenshots/` and update the image paths below.
+### Transactions
 
-### Dashboard
+![Transactions](docs/screenshots/transactions.png)
 
-![Dashboard](docs/screenshots/dashboard.png)
+### Savings
 
-### Annual report
+![Savings](docs/screenshots/savings.png)
 
-![Annual report](docs/screenshots/annual-report.png)
+### Recurrent
 
-### Manage users
-
-![Manage users](docs/screenshots/manage-users.png)
+![Recurrent](docs/screenshots/recurrent.png)
 
 ## Language
 
@@ -67,9 +65,19 @@ Choose **English** or **French** from the language selector in the top bar. The 
 
 Choose **EUR**, **GBP**, or **USD** from the currency selector. Amounts in the interface and CSV exports use the selected currency display. Currency selection changes formatting only; it does not convert transaction amounts between currencies.
 
-## Themes
+## Themes (settings)
 
 Choose **Light**, **Dark**, **Ocean**, **Lavender**, or **Sunset** in Settings. Theme choice is saved per account. The cash-flow and savings charts, spending pie chart, and chart legends use coordinated colors for the active theme.
+
+## Admin Section
+
+### Manage Users (Creation, deletion and password reset)
+
+![Manage Users](docs/screenshots/users.png)
+
+### Manage Category
+
+![Manage Category](docs/screenshots/categories.png)
 
 ## Future improvements
 
