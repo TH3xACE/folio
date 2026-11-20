@@ -4,7 +4,7 @@ Folio is a lightweight personal finance app for tracking income, expenses, and s
 
 ![Folio dashboard screenshot](docs/screenshots/dashboard.png)
 
-> Screenshot placeholder: add a dashboard capture at `docs/screenshots/dashboard.png`.
+> Dashboard capture.
 
 ## Features
 
